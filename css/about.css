@@ -1,0 +1,17 @@
+body{
+    padding-top: 45px;
+}
+
+#about-img{
+    display: block;
+}
+
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em;
+}
+
+#about-row{
+    background: #afafaf;
+}

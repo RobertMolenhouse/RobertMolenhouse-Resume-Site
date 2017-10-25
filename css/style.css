@@ -1,0 +1,355 @@
+/*
+  Colors
+green: #7BBE3B
+light blue: #3799F9
+navy: #003167
+rust: #D2583B
+light grey: #D6D5D5
+Base: #938684
+*/
+
+body {
+  padding-top: 3em;
+}
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#nav-bar{
+  height: 50px;
+}
+#name{
+  color : #3799F9;
+}
+.clear-fix {
+  overflow: auto;
+}
+
+#coursework_h5{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: #D2583B;
+}
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+#education-entry{
+  color: #7BBE3B;
+}
+
+#github_link{
+  color: #ffffff;
+  font-size: 14px; 
+  font-weight: bold;
+  display: inline;
+}
+
+.school_pic{
+  width: 100px;
+  height: auto;
+}
+
+
+#workExperience{
+  float: left;
+}
+
+#projects{
+  float: left;
+}
+
+h1 {
+  font-size: 40px;
+  color: #D2583B;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #938684;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+#work_title{
+  font-size: 16px;
+  color : #003167;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+#project_title{
+  font-size: 16px;
+  color : #003167;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px 5%;
+
+}
+
+#courses{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#topContacts{
+  display: inline-block;
+}
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 28px;
+  text-shadow: -1px 0 #4a4a4a, 0 1px #4a4a4a, 1px 0 #4a4a4a, 0 -1px #4a4a4a;
+}
+
+#skills-h3 {
+  color: #7BBE3B;
+}
+
+.orange {
+  background-color: #7BBE3B;
+}
+
+.orange-text {
+  color: #7BBE3B;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+/* TODO: Replace with image later */
+
+#skills {
+  display: inline;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  display : inline;
+}
+
+.logo_img{
+  width: 100px;
+}
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+#nav-logo{
+  max-width: 120px;
+  padding-top: 0px;
+  position: relative;
+  top: -25px;
+}
+
+#race-dash{
+  display: inline;
+  max-width: 400px;
+  vertical-align: center;
+}
+img {
+  padding: 10px;
+}
+
+span {
+  color: #f3f3f3;
+  padding: 5px;
+}
+
+.degree{
+  font-size: 14px;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+#hr_header{
+  border: 0px solid #000000;
+}
+
+#header {
+  background-color: #000000;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right top;
+}
+
+#welcome-message {
+  color: #f3f3f3;
+  font-size: 16px;
+}
+
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width:640px){
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 100px;
+    display: block;
+  }
+  #header{
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  body{
+    padding-top: 160px;
+  }
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+    display: block;
+  }
+  #header{
+    background-image: none;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 1100px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+  #header{
+    background-image: url("bmd_logo2.png");
+    background-position-y: bottom;
+  }
+}
+
+/* css for the about page, TODO move to own file sometime */
+#about-img{
+  display: block;
+}
+
+.vcenter{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+#about-row{
+  background: #afafaf;
+}
+
+#about-courses{
+  background: #777777;
+}
+
