@@ -75,7 +75,7 @@ projects.display = function(){
         
 
         if(projects.projects[project].name === "Race Dash"){
-            $(".project-entry:last").append('<div class="row"><div class="embed-responsive embed-responsive-16by9 col-sm-4"><video muted autoplay loop class="embed-responsive-item col-sm-4"><source src="images/gridDash.mp4" type="video/mp4"></video></div><img src="images/raceDash.png" id="race-dash"></div>')
+            $(".project-entry:last").append('<div class="row"><div class="embed-responsive embed-responsive-16by9 col-sm-4"><video muted autoplay loop id="dash-vid" class="embed-responsive-item col-sm-4"><source src="images/gridDash.mp4" type="video/mp4"></video></div><img src="images/raceDash.png" id="race-dash"></div>')
         }else{
 
         $(".project-entry:last").append(formattedProjImg);

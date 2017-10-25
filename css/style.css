@@ -319,6 +319,9 @@ span {
   #header{
     background-image: none;
   }
+  #dash-vid{
+    max-width: 150px;
+  }
   
   
 }
