@@ -36,6 +36,10 @@ h6 {
   overflow: auto;
 }
 
+#skills-div{
+  display: inline-block;
+}
+
 #coursework_h5{
   font-weight: bold;
   font-style: normal;
@@ -131,7 +135,7 @@ h5 {
 }
 
 #topContacts{
-  display: inline-block;
+  list-style: none;
 }
 .date-text {
   font-style: italic;
@@ -202,7 +206,7 @@ a {
 /* TODO: Replace with image later */
 
 #skills {
-  display: inline;
+  float: left;
 }
 
 .flex-box {
@@ -226,11 +230,13 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+  
 }
 
 li{
-  display : inline;
+  position: relative;
+  display: inline-table;
 }
 
 .logo_img{
@@ -327,7 +333,6 @@ span {
 }
 
 @media only screen and (min-width: 1100px) {
-  #skills-h3,
   .biopic {
     display: block;
   }
