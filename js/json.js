@@ -1,6 +1,6 @@
 
 
-var welcomeMessage = "Hello, My name is Bob and I am graduating from Hope College in December with a degree in Computer Science. I am a developer in search of a full time developing job.  I graduated from Hope four years ago with a degree in teaching.  However, I found my way into programming by expiramenting with micro controllers and knew that I wanted to make that my lifes work.  I decided to return to Hope College to pursue a degree in Computer Science with a focus in software development.  I have never looked back.  Take a moment and look over my resume, browse some of my side projects, and get to know me a little better.  Thank You!";  
+var welcomeMessage = "Hello, my name is Bob. I am graduating from Hope College in December with a degree in Computer Science. I am a developer in search of a full time developing job.  I originally graduated from Hope four years ago with a degree in Secondary Education.  However, I found my way into programming by experimenting with micro controllers and knew that I wanted to make that my life's work.  I decided to return to Hope College to pursue a degree in Computer Science with a focus in software development.  I have never looked back.  Take a moment and look over my resume, browse some of my side projects, and get to know me a little better.  Thank You!";  
 
 var skills = ["Java", "C#", "C", "Perl", "SQL", "HTML", "CSS", "JavaScript", "JSON", "XML", "Racket", "Android", "Linux"];
 
@@ -166,7 +166,7 @@ var projects = {
             "name" : "Race Dash",
             "description" : "I created a digital dash board that is optimized for use in a race car.  A friend of mine is an amature racing driver and wanted a more racing friendly dash without spending thousands of dollars on comercially available products.  I created a dash for him powered by a raspberry pi running a custom Java application that reads live data from a cars OBD II port. Video below shows the more stripped down UI version running on a Raspberry Pi.  The picture to the right is of the full javaFX desktop version on my laptop.  More gagues can be added to both",
             "image" : "images/raceDash.png",
-            "url" : ""
+            "url" : "#"
         },
         {
             "name" : "ScoreRealms: Android App - Link to Google Play Store",

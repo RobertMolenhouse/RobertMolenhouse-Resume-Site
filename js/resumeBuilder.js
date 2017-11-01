@@ -40,7 +40,7 @@ if(education.schools.length > 0){
         
         var logo = HTMLschoolLogo.replace("%data%", education.schools[i].logo);
         var school = HTMLschoolName.replace("%data%", logo);
-        var degree = HTMLschoolDegree.replace("%data%", "Bachelor of Arts: Computer Science, Bachelor of Arts: Secondary Education - Social Studies");
+        var degree = HTMLschoolDegree.replace("%data%", "2017 Bachelor of Arts: Computer Science, 2013 Bachelor of Arts: Secondary Education - Social Studies");
         $("#education-entry").append(school);
         $("#education-entry").append(degree);
 
@@ -69,6 +69,11 @@ projects.display = function(){
         var formattedProjDesc = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
         var formattedProjImg = HTMLprojectImage.replace("%data%", projects.projects[project].image);
 
+        // Race Dash does not need a link. If it ever does, delete this
+        //if statement
+        if(projects.projects[project].name === "Race Dash"){
+            formattedProjName = '<h5 id="work_title">Race Dash</h5>'
+        }
     
         $(".project-entry:last").append(formattedProjName);;
         $(".project-entry:last").append(formattedProjDesc);
@@ -81,6 +86,7 @@ projects.display = function(){
         $(".project-entry:last").append(formattedProjImg);
         }
     }
+
 }
 
 projects.display();
