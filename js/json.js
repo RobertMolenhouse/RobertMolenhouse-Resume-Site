@@ -169,7 +169,7 @@ var projects = {
             "url" : "#"
         },
         {
-            "name" : "ScoreRealms: Android App - Link to Google Play Store",
+            "name" : "Fleet Command: Android App - Link to Google Play Store",
             "description" : "I created a basic Android application that is on the play store.  The application allows users to keep track of the score of deck building card games.",
             "image" : "images/featureG.png",
             "url" : "https://play.google.com/store/apps/details?id=com.bobmolenhouse.scorerealms&hl=en"
