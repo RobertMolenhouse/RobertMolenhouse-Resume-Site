@@ -160,7 +160,7 @@ var projects = {
             "name" : "Kruizinga Art Museum Online Exhbition - Link to Website",
             "description" : "The Hope College Art Museum wanted a way to display their collection online.  I am part of a team of four seniors working to create a website to allow the entire collection to be acessable online.  We worked with the Collective Access open source platform to create a database and website for the museums collection.  It should be noted that this site is still under active development and may be unavailable or unfinished.",
             "image" : "images/kam.png",
-            "url" : "http://providence.hope.edu/media/pawtucket/index.php/Browse/objects/facet/occurrence_facet_107/id/6/view/images/key/e7ea7a9363bf62768d1a37a4a0c78efa"
+            "url" : "http://providence.hope.edu/media/pawtucket/"
         },
         {
             "name" : "Race Dash",
